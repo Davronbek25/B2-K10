@@ -19,7 +19,7 @@ const cardActualPrices = ["€ 26.99", "€ 19.99", "€ 5.69", "€ 29.99", "�
 for (let i = 0; i < 4; i++) {
   initialCards[0].innerHTML += `
           <div class="card px-0 shadow-sm" style="width: 16rem">
-            <img src="/imgs/tile (${
+            <img src="./imgs/tile (${
               i + 1
             }).jpg" class="card-img-top" alt="..." />
             <div class="card-body pt-2 pb-0 px-2">
@@ -46,7 +46,7 @@ for (let i = 0; i < 4; i++) {
 for (let i = 0; i < 3; i++) {
   initialCards[1].innerHTML += `
           <div class="card px-0 shadow-sm" style="width: 21.8rem">
-            <img src="/imgs/tile (${
+            <img src="./imgs/tile (${
               i + 15
             }).jpg" class="card-img-top" alt="..." />
             <div class="card-body pt-2 pb-0 px-2">
@@ -122,7 +122,7 @@ for (let i = 0; i < 3; i++) {
       <div class="card px-0 shadow-sm ms-auto" style="width: ${widthCard}; height: ${
       i > 0 ? "90%" : "95%"
     };">
-        <img src="/imgs/tile (${i + 15 + x}).jpg" style="${
+        <img src="./imgs/tile (${i + 15 + x}).jpg" style="${
       i === 0 ? "height: 82%" : ""
     }; object-fit: cover" />
         <div class="card-body pt-1 pb-0 px-2" style="${
@@ -225,7 +225,7 @@ console.log(unList)
 for(let i = 0; i < 10; i++) {
   unList.innerHTML += `
   <li class="list-group-item d-flex p-0" style="height: 76px;">
-    <img src="/imgs/tile (${i + 1}).jpg" width="21%">
+    <img src="./imgs/tile (${i + 1}).jpg" width="21%">
     <div class="list-footer py-1 w-100">
       <div>${cardTexts[i]}</div>
       <div class="d-flex justify-content-between mt-2">
